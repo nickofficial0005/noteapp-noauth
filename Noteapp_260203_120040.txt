@@ -1,0 +1,46 @@
+Project Title
+
+MERN Notes App
+
+🔹 Project Objective
+
+Create a simple application where a user can add, view, edit, and delete notes, it will be like a open souce note app, there will not any user authentication
+(means no login requires), any one can create notes in this website, these notes will be in MongoDB database very organizely, 
+
+🧩 Core Features (Only CRUD)
+
+Add a note
+
+View all notes
+
+Edit a note
+
+Delete a note
+
+Notes stored in MongoDB
+
+Simple UI (no auth)
+
+🛠 Tech Stack
+
+Frontend: React, Axios
+
+Backend: Node.js, Express.js
+
+Database: MongoDB (Mongoose)
+
+📄 Pages / Screens
+
+Notes List Page
+
+Add Note Form
+
+Edit Note Form
+
+| Method | Endpoint       | Description     |
+| ------ | -------------- | --------------- |
+| POST   | /api/notes     | Create note     |
+| GET    | /api/notes     | Get all notes   |
+| GET    | /api/notes/:id | Get single note |
+| PUT    | /api/notes/:id | Update note     |
+| DELETE | /api/notes/:id | Delete note     |
